@@ -1,0 +1,17 @@
+.tagcloud-header {
+  margin: 6px 0 12px 0;
+  font-size: 3.2rem;
+  padding: 0;
+  line-height: 1;
+  font-weight: bold;
+  color: var(--second-text-color);
+}
+.tagcloud-content {
+  text-align: justify;
+}
+.tagcloud-content a {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.7rem 0.5rem;
+  line-height: 0.7;
+}
