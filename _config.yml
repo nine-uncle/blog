@@ -105,4 +105,5 @@ theme: redefine
 deploy:
   type: git
   repo: git@github.com:nine-uncle/blog.git
-  branch: main
+  # 站点静态文件推 gh-pages，main 只保留 Hexo 源码，避免与 hexo deploy 的提交互相冲突
+  branch: gh-pages
