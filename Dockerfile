@@ -1,5 +1,5 @@
-# 使用 nginx 基础镜像
-FROM  nginx:stable-alpine
+# 使用阿里云镜像源的 nginx 基础镜像
+FROM registry.cn-hangzhou.aliyuncs.com/library/nginx:stable-alpine
 
 # 移除默认的Nginx配置文件
 RUN rm /etc/nginx/conf.d/default.conf
