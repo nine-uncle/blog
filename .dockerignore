@@ -1,0 +1,9 @@
+node_modules
+.git
+source
+themes
+_config.yml
+_config.redefine.yml
+db.json
+*.md
+!public/**
