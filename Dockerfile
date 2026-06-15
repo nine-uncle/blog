@@ -1,6 +1,7 @@
-# 国内服务器请使用镜像加速地址，避免 docker.io 拉取失败
-# 若仍失败，可在 ECS 配置 /etc/docker/daemon.json 的 registry-mirrors
-FROM registry.cn-hangzhou.aliyuncs.com/library/nginx:stable-alpine
+# 国内 ECS 拉 docker.io 常失败，默认走 DaoCloud 镜像；可 build 时覆盖 NGINX_IMAGE
+# 示例: docker build --build-arg NGINX_IMAGE=nginx:stable-alpine -t my-hexo-blog:v1 .
+ARG NGINX_IMAGE=docker.m.daocloud.io/library/nginx:stable-alpine
+FROM ${NGINX_IMAGE}
 
 RUN rm /etc/nginx/conf.d/default.conf
 
