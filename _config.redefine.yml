@@ -405,7 +405,7 @@ plugins:
       - name: 夜曲
         artist: 周杰伦
         url: https://raw.githubusercontent.com/nine-uncle/zhoujielun/main/%E5%8D%81%E4%B8%80%E6%9C%88%E7%9A%84%E8%90%A7%E9%82%A6/%E5%91%A8%E6%9D%B0%E4%BC%A6%20-%20%E5%A4%9C%E6%9B%B2.mp3
-        cover: https://picsum.photos/200
+        cover: https://upload.wikimedia.org/wikipedia/zh/9/93/Jay_chopin_cover270.jpg
         lrc:
       # - name: 第二首
       #   artist: 歌手
